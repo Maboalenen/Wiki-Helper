@@ -35,4 +35,4 @@ The term kill chain was originally used as a military concept related to the str
 | COMMAND AND CONTROL | C2 channel establishes |
 | Actions on Objectives | Access for intruder to accomplish goal |
 
-
+b+='<span id="md-footer-additional">Content: Mahmoud Aboalenen -- </span>',b+='Website generated with <a href="http://www.mdwiki.info">MDwiki</a> '
