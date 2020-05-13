@@ -1,4 +1,4 @@
-Welcome to Our helper interface : Blue and Read Team 
+Welcome to Wiki helper interface : Blue and Read Team 
 ===============================
 
 > We hope you find the information contained here useful
