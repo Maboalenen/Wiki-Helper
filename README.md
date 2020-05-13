@@ -1,8 +1,8 @@
-Welcome to Wiki helper interface : Blue and Read Team 
+Welcome to Wiki helper interface : Blue and Red Team 
 ===============================
 
 > We hope you find the information contained here useful
- **Blue & Read Team = Defence & offensive**
+ **Blue & Red Team = Defence & offensive**
 
 Incident Response
 ------------
