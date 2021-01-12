@@ -21,7 +21,7 @@ Examples of Event IDs
 | A service was installed in the system  | 4697 |
 | A user account was created | 4720 |
 | The audit log was cleared | 1102 |
-| The audit log was cleared. | 1102 |
+| the system log file was cleared | 104 |
 | new process created | 4688 |
 | user Deleted | 4726 |
 | The Event log service was stopped |6006 |
@@ -31,8 +31,8 @@ Examples of Event IDs
 | member was added to security enabled global group | 4732 |
 | member was added to security enabled local group | 4728 |
 | member was added to security enabled universal group | 4756 |
-| the system log file was cleared | 104 |
 | the windows filtering platform has blocked a connection | 5157 |
+| The Windows Filtering Platform has allowed a connection | 5156 |
 | the system time was chnaged | 4616 |
 | new exctrnal device was recognized | 6416 |
 
