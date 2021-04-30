@@ -84,5 +84,5 @@ Quiery specific fields
 ```
 Qiures for time taken bigger than 1000
 ```bash
-time_taken>1000  |stats count by time_taken
+time_taken>1000  |stats count by time_taken 
 ```
