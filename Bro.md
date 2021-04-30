@@ -62,4 +62,4 @@ $ bro -r /pcaps/tbot.pcap
 $ less -S http.log 
 ```
 
-**Note**: Using `less -s` against Bro logs can be exremely useful before you know which fields to pull with `bro-cut`
+**Note**: Using `less -s` against Bro logs can be exremely useful before you know which fields to pull with `bro-cut` 
