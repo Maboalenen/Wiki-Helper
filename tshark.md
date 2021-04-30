@@ -68,4 +68,4 @@ A printable PDF version of this cheatsheet is available here:
 
 Cheat Sheet Version
 --------------
-#### **`Version 1.0`**
+#### **`Version 1.0`** 
