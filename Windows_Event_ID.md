@@ -35,6 +35,10 @@ Examples of Event IDs
 | The Windows Filtering Platform has allowed a connection | 5156 |
 | the system time was chnaged | 4616 |
 | new exctrnal device was recognized | 6416 |
+|user account was enabled | 4722 |
+|Local Account is getting disbaled |4725|
+|DC A user account was unlocked | 4767 |
+| A user account was locked out | 4740|
 
 
 
