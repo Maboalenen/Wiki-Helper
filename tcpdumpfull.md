@@ -83,7 +83,7 @@ $ tcpdump -Ann -r  /pcaps/file.pcap 'dst port 80' | sed -n '/python-request/,$p'
 ```
 **Using the “--context=5"**
 ```bash
-$ tcpdump -Ann -r  /pcaps/file.pcap 'dst port 80' | grep -Ei '/python-request/' --context=5 | head
+$ tcpdump -Ann -r  /pcaps/file.pcap 'dst port 80' | grep -Ei '/python-request/' --context=5 | head 
 ```
 
 
