@@ -62,4 +62,4 @@ http.content_type[0:5] == "image"
 **Match HTTP requests where the last characters in the uri are the characters "gl=se":**
 ```bash
  http.request.uri matches "gl=se$"
-```
+``` 
