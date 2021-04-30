@@ -13,7 +13,8 @@ https://www.gnu.org/software/wget/
 ## Examples
 - `wget [flags] protocol://site`
 - `wget https://www.sans.org`
-- `wget -U "2018 Chevy Volt" -m --no-check-certificate https://www.sans.org` - 
+- `wget -U "2018 Chevy Volt" -m --no-check-certificate https://www.sans.org` 
+- wget -c "www.test.com/1.zip" 
 
 ## Helpful Switches and Flags
 - `-e robots=off` - Wget, by default, abides by the robots.txt files that many sites have at their root levels (e.g., https://www.gnu.org/robots.txt). This bypasses those directives and lets Wget retrieve content a "nice" spider would not.
