@@ -40,5 +40,5 @@ Exit from Mimikatz...
 ```bash
 $ exit
 ```
-
+ 
 
