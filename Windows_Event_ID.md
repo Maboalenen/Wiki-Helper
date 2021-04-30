@@ -38,7 +38,7 @@ Examples of Event IDs
 |user account was enabled | 4722 |
 |Local Account is getting disbaled |4725|
 |DC A user account was unlocked | 4767 |
-| A user account was locked out | 4740| 
+| A user account was locked out | 4740|
 
 
 
