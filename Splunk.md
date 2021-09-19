@@ -1,11 +1,13 @@
-Splunk                                                                                                                                        ![image](https://user-images.githubusercontent.com/49055941/133937321-2f8e6cf5-eb4d-4700-aaad-7ceae8c51edf.png)
-
+Splunk                                                                                                                                
 =====
-
+![image](https://user-images.githubusercontent.com/49055941/133937359-73a6dab8-1db3-440f-a93f-2ecffe32ab15.png)
 
 Abstrict 
 -----
-Splunk is splunk is commercial tools with free limitations edition 500MB per day captures, indexes, and correlates real-time data in a searchable repository from which it can generate graphs, reports, alerts, dashboards, and visualizations.
+> Big data analysis and visualization platform.  
+> Splunk is a technology that is used for Captures, indexes, searching, monitoring,   
+> visualizing, correlates and analyzing the machine data on a real-time basis. 
+
 
 Source: <a href='https://www.splunk.com'  target='_blank'>Splunk</a> 
 
