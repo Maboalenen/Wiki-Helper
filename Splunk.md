@@ -8,6 +8,11 @@ Abstrict
 > Splunk is a technology that is used for Captures, indexes, searching, monitoring,   
 > visualizing, correlates and analyzing the machine data on a real-time basis. 
 
+What is Splunk query language? 
+-------
+> SPL is the abbreviation for Search Processing Language 
+   designed by Splunk
+
 
 Source: <a href='https://www.splunk.com'  target='_blank'>Splunk</a> 
 
