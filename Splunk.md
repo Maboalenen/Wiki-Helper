@@ -98,4 +98,9 @@ Fast quires to know the data  index and data source
 ```bash
 | tstats count where index="*" by index source
  ```
+ IPlocation
+ ```bash
+ index="*" | iplocation src_ip | rename Country as Source_Country | iplocation dest_ip | rename Country as Destination_Country | table src_ip Source_Country  dest_ip Destination_Country 
+ ```
+
  
