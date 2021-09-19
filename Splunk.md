@@ -1,5 +1,6 @@
 Splunk 
 =====
+![image](https://user-images.githubusercontent.com/49055941/133937301-a8e5d281-1b27-456a-9ce3-3c2a03546078.png)
 
 
 Abstrict 
@@ -86,3 +87,8 @@ Qiures for time taken bigger than 1000
 ```bash
 time_taken>1000  |stats count by time_taken 
 ```
+Fast quires to know the data  index and data source 
+```bash
+| tstats count where index="*" by index source
+ ```
+ 
