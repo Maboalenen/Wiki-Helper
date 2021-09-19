@@ -37,7 +37,8 @@ The term kill chain was originally used as a military concept related to the str
 
 Mitre Attack
 -----
-<img width="1666" alt="Screen Shot 2021-09-19 at 9 01 18 PM" src="https://user-images.githubusercontent.com/49055941/133937979-7a671dbe-4535-418f-87de-2af1c9e7c6e2.png">
+<img width="216" alt="Screen Shot 2021-09-19 at 9 06 39 PM" src="https://user-images.githubusercontent.com/49055941/133938080-c90f163e-c3ad-4549-adf4-fe0a0c6de0d2.png">
+<img width="1667" alt="Screen Shot 2021-09-19 at 9 05 42 PM" src="https://user-images.githubusercontent.com/49055941/133938064-b1f7042a-22a0-4453-a0b8-182864fdf8bc.png">
 
 
 
