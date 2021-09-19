@@ -35,7 +35,7 @@ The term kill chain was originally used as a military concept related to the str
 | COMMAND AND CONTROL | C2 channel establishes | 
 | Actions on Objectives | Access for intruder to accomplish goal |
 
-Mitre Attack
+MITRE Adversarial Tactics, Techniques, and Common Knowledge 
 -----
 <img width="216" alt="Screen Shot 2021-09-19 at 9 06 39 PM" src="https://user-images.githubusercontent.com/49055941/133938080-c90f163e-c3ad-4549-adf4-fe0a0c6de0d2.png">
 <img width="1667" alt="Screen Shot 2021-09-19 at 9 05 42 PM" src="https://user-images.githubusercontent.com/49055941/133938064-b1f7042a-22a0-4453-a0b8-182864fdf8bc.png">
