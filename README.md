@@ -32,7 +32,13 @@ The term kill chain was originally used as a military concept related to the str
 | DELIVERY |email attachments, websites, and removable media such as a USB stick |
 | EXPLOITATION | exploiting a vulnerability to execute code on victim’s system |
 | INSTALLATION | The installation of a remote access Trojan or backdoor on the victim system allows the adversary to maintain persistence inside the environment |
-| COMMAND AND CONTROL | C2 channel establishes |
+| COMMAND AND CONTROL | C2 channel establishes | 
 | Actions on Objectives | Access for intruder to accomplish goal |
+
+Mitre Attack
+-----
+<img width="1666" alt="Screen Shot 2021-09-19 at 9 01 18 PM" src="https://user-images.githubusercontent.com/49055941/133937979-7a671dbe-4535-418f-87de-2af1c9e7c6e2.png">
+
+
 
 Content: Mahmoud Aboalenen & Website generated with <a href="http://www.mdwiki.info">MDwiki</a> 
