@@ -102,5 +102,9 @@ Fast quires to know the data  index and data source
  ```bash
  index="*" | iplocation src_ip | rename Country as Source_Country | iplocation dest_ip | rename Country as Destination_Country | table src_ip Source_Country  dest_ip Destination_Country 
  ```
+Microsoft 365 audit logs 
+```bash
+index="*"  | rex field=AuditData "^(?<F0>[^,]+)," | rex field=AuditData "^(?:[^,]+?,){12}(?<F12>[^,]+?)," | rex field=AuditData "^(?:[^,]+?,){2}(?<F2>[^,]+?)," | rex field=AuditData "^(?:(?:[^,]+)?,){3}(?<F3>[^,]+?)," | rex field=_AuditData "^(?:(?:[^,]+)?,){4}(?<F4>[^,]+?)," | rex field=AuditData "^(?:(?:[^,]+)?,){5}(?<F5>[^,]+?)," | rex field=AuditData "^(?:(?:[^,]+)?,){6}(?<F6>[^,]+)?" | rex field=AuditData "^(?:(?:[^,]+)?,){7}(?<F7>[^,]+)?" | rex field=AuditData "^(?:(?:[^,]+)?,){8}(?<F8>[^,]+)?" | rex field=AuditData "^(?:(?:[^,]+)?,){9}(?<F9>[^,]+)?" | rex field=AuditData "^(?:(?:[^,]+)?,){10}(?<F10>[^,]+)?" | rex field=AuditData "^(?:(?:[^,]+)?,){11}(?<F11>[^,]+)?" | stats count by F12 F10
+```
 
  
