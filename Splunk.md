@@ -32,6 +32,12 @@ search (code=10 OR code=29 OR code=43) host!="localhost" xqp>5
  ```bash
  search code IN(10, 29, 43) host!="localhost" xqp>5
  ```
+
+```bash
+
+ 
+ 
+ 
  HTTP client and server error status. 
  ```bash
  search host=webserver* (status=4* OR status=5*)
@@ -106,5 +112,7 @@ Microsoft 365 audit logs
 ```bash
 index="*"  | rex field=AuditData "^(?<F0>[^,]+)," | rex field=AuditData "^(?:[^,]+?,){12}(?<F12>[^,]+?)," | rex field=AuditData "^(?:[^,]+?,){2}(?<F2>[^,]+?)," | rex field=AuditData "^(?:(?:[^,]+)?,){3}(?<F3>[^,]+?)," | rex field=_AuditData "^(?:(?:[^,]+)?,){4}(?<F4>[^,]+?)," | rex field=AuditData "^(?:(?:[^,]+)?,){5}(?<F5>[^,]+?)," | rex field=AuditData "^(?:(?:[^,]+)?,){6}(?<F6>[^,]+)?" | rex field=AuditData "^(?:(?:[^,]+)?,){7}(?<F7>[^,]+)?" | rex field=AuditData "^(?:(?:[^,]+)?,){8}(?<F8>[^,]+)?" | rex field=AuditData "^(?:(?:[^,]+)?,){9}(?<F9>[^,]+)?" | rex field=AuditData "^(?:(?:[^,]+)?,){10}(?<F10>[^,]+)?" | rex field=AuditData "^(?:(?:[^,]+)?,){11}(?<F11>[^,]+)?" | stats count by F12 F10
 ```
-
- 
+Microsoft 365 audit logs IP location (Country)
+```bash
+index="almirqab" | stats count by AuditData  | rex field=AuditData "^(?<F0>[^,]+)," | rex field=AuditData "^(?:[^,]+?,){12}(?<F12>[^,]+?)," | rex field=AuditData "^(?:[^,]+?,){2}(?<F2>[^,]+?)," | rex field=AuditData "^(?:(?:[^,]+)?,){3}(?<F3>[^,]+?)," | rex field=_AuditData "^(?:(?:[^,]+)?,){4}(?<F4>[^,]+?)," | rex field=AuditData "^(?:(?:[^,]+)?,){5}(?<F5>[^,]+?)," | rex field=AuditData "^(?:(?:[^,]+)?,){6}(?<F6>[^,]+)?" | rex field=AuditData "^(?:(?:[^,]+)?,){7}(?<F7>[^,]+)?" | rex field=AuditData "^(?:(?:[^,]+)?,){8}(?<F8>[^,]+)?" | rex field=AuditData "^(?:(?:[^,]+)?,){9}(?<F9>[^,]+)?" | rex field=AuditData "^(?:(?:[^,]+)?,){9}(?<F9>[^,]+)?" | rex field=AuditData "^(?:(?:[^,]+)?,){10}(?<F10>[^,]+)?" | rex field=F10 "^(?:(?:[^,]+)?:){1}(?<IP>[^,]+)?" | rex field=IP "\"?(?<IP>[\d\.]+)\"?" | iplocation IP | stats count by  F0 F12 F10 IP Country
+```
