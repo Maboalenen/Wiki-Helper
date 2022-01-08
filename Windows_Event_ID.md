@@ -17,6 +17,8 @@ Examples of Event IDs
 
 | Message | Event-ID |
 |--|--|
+| Successfully logged on  | 4624 | 
+| Account failed to log on | 4625 | 
 | New Service was installed  | 7045 |
 | A service was installed in the system  | 4697 |
 | A user account was created | 4720 |
